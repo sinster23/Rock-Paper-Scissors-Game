@@ -1,6 +1,6 @@
 ## Hello! Welcome to my Repository <^^>
 
-**HTML code:** [Microsoft.html](https://github.com/sinster23/Netflix-Clone/blob/main/Upaflix.html)
+**HTML code:** [sp1.html](https://github.com/sinster23/Rock-Paper-Scissors-Game/blob/main/sp1.html)
 
 **CSS code:** [style.css](https://github.com/sinster23/Netflix-Clone/blob/main/style.css)
 
