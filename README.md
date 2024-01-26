@@ -5,4 +5,4 @@
 **CSS code:** [style.css](https://github.com/sinster23/Rock-Paper-Scissors-Game/blob/main/style.css)
 
 
-![Netflix Clone](https://github.com/sinster23/Screenshots/blob/main/ss2.png)
+![Game Outlook: ](https://github.com/sinster23/Screenshots/blob/main/rock-paper-scissors-ss.png)
