@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock paper scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class=" pt-20 m-10 flex  flex-col items-center justify-center bg-black ">
+    <h1 class="text-white font-extrabold text-5xl pb-10 ">ROCK,PAPER,SCISSORS</h1>
+    <div class="insidecontent flex flex-col items-center justify-center p-20 rounded-md relative ">
+        <p class="userscore  text-white font-semibold text-xl"></p>
+    <div class="buttons flex gap-10 p-10">
+        <div class=" cursor-pointer mt-4 p-5 w-36 bg-gray-500 hover:bg-gray-400 rounded-full" onclick="calcmove('rock')"><img  src="rock.png" alt=""></img></div>
+    <div class=" cursor-pointer p-5 w-36  bg-gray-500  hover:bg-gray-400 rounded-full" onclick="calcmove('paper')"><img src="paper.png" alt=""></div>
+    <div class="cursor-pointer p-2 pt-5 w-36  bg-gray-500  hover:bg-gray-400 rounded-full"  onclick="calcmove('scissor')"><img src="scissor.png" alt=""></div>
+    </div>
+    <div class="content p-10 font-semibold text-xl flex flex-col gap-10">
+        <p class="userresult text-white text-5xl"></p>
+        <p class="usermoves  text-white flex"></p>
+    </div>
+    <div class="lastbuttons flex gap-5">
+        <div class="w-28 h-12 rounded-md hover:bg-amber-200 cursor-pointer text-black font-bold pt-2 bg-amber-300 text-center" onclick="
+        score.wins=0,
+        score.loses=0
+        score.ties=0
+        document.querySelector('.userscore').innerHTML=` Wins: ${score.wins}. Loses: ${score.loses}. Ties: ${score.ties}.`
+        localStorage.removeItem('score')">Reset Score</div>
+     <div class="w-28 h-12 rounded-md hover:bg-amber-200 cursor-pointer text-black font-bold pt-2 bg-amber-300 text-center" onclick="autoplay();">AutoPLay</div>  
+    </div>    
+    </div>
+    
+    <script src="javascript.js"></script>
+</body>
+</html>
